@@ -1,7 +1,9 @@
+import { Header } from "./components/Header";
+
 function App() {
   return (
     <div className="App">
-      <h1>Biblioteca de Domingo</h1>
+      <Header />
     </div>
   );
 }
