@@ -1,5 +1,7 @@
 .header-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 17px;
 }
 
@@ -31,4 +33,9 @@ h1 > span {
 button {
     background-color: transparent;
     color: #fff;
+}
+
+button:hover {
+    border-radius: 20px;
+    background-color: #3AA0A3;
 }
