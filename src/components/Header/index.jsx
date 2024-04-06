@@ -9,8 +9,8 @@ export function Header() {
             <div className="header-content">
             <h1>biblioteca <span>de domingo</span></h1>
             <div className='header-actions'>
-                <button>login</button>
-                <button>registro</button>
+                <button className='btn'>login</button>
+                <button className='btn'>registro</button>
             </div>
         </div>
         <ThemeToggle />

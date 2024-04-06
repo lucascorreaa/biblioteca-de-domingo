@@ -5,7 +5,7 @@ export function LandPage() {
     return (
         <LandContainer>
             <Header />
-            <Marquee content="DESIGN 🎨 - ENGENHARIA 🪚 - METODOLOGIA-ÁGIL 📚 - HARD-SKILLS 🤸🏿‍♂️" />
+            <Marquee text="DESIGN 🎨 - ENGENHARIA 🪚 - METODOLOGIA-ÁGIL 📚 - HARD-SKILLS 🤸🏿‍♂️ - " />
         </LandContainer>
     )
 }
