@@ -1,10 +1,9 @@
-import { Header } from './components/Header'
+import { LandPage } from './pages/Landpage';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <h1>Biblioteca de Domingo</h1>
+      <LandPage />
     </div>
   );
 }
