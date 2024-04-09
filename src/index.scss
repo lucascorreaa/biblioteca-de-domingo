@@ -1,3 +1,5 @@
+$primary-bg: #212529;
+
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #212529;
+  background-color: $primary-bg;
   display: flex;
   flex-direction: column;
 }
