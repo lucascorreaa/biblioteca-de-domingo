@@ -1,0 +1,37 @@
+$font-path: "./assets/fonts/Supply";
+
+// PPSupplyMono
+$PPSupplyMono-Regular: (
+  font-family: "PPSupplyMono",
+  font-weight: normal,
+  font-style: normal,
+  src: url("#{$font-path}/PPSupplyMono-Regular.otf")
+);
+$PPSupplyMono-Ultralight: (
+  font-family: "PPSupplyMono",
+  font-weight: 100,
+  font-style: normal,
+  src: url("#{$font-path}/PPSupplyMono-Ultralight.otf")
+);
+
+// PPSupplySans
+$PPSupplySans-Regular: (
+  font-family: "PPSupplySans",
+  font-weight: normal,
+  font-style: normal,
+  src: url("#{$font-path}/PPSupplySans-Regular.otf")
+);
+$PPSupplySans-Ultralight: (
+  font-family: "PPSupplySans",
+  font-weight: 100,
+  font-style: normal,
+  src: url("#{$font-path}/PPSupplySans-Ultralight.otf")
+);
+
+// Mixin para aplicar as fontes
+@mixin apply-font($font-map) {
+  font-family: map-get($font-map, font-family);
+  font-weight: map-get($font-map, font-weight);
+  font-style: map-get($font-map, font-style);
+  src: map-get($font-map, src);
+}
